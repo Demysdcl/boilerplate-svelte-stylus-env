@@ -1,5 +1,6 @@
 import axios from "axios"
 
+//problema preciso da dessas variaveis para acessar as APIs conforme o ambiente
 const { BACK_BASE_URL, MOVIMENTACAO_URL, ESCRITURACAO_URL } = process.env
 
 const api = axios.create({

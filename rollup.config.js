@@ -36,6 +36,7 @@ export default {
         hydratable: true,
         emitCss: true,
         preprocess: preprocess({
+          //problema quero deixar a variables.styl global para não precisar ficar importanto no components
           stylus: {
             data: "./src/styles/variables.styl"
           },
@@ -95,6 +96,7 @@ export default {
         generate: "ssr",
         dev,
         preprocess: preprocess({
+          //não está funcionando
           stylus: {
             data: "./src/styles/variables.styl"
           },

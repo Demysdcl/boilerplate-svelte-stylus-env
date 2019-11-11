@@ -1,4 +1,7 @@
 <script>
+  //problema vou precisar da BASE_URL para gerar o menu
+  const baseUrl = process.env.BASE_URL
+  console.log(baseUrl)
 	
 	export let segment
 	

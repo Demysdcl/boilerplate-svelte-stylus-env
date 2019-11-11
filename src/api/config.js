@@ -1,5 +1,6 @@
 import * as apis from "./index"
 
+//problema preciso da APP_URL para direcionar para home
 const { APP_URL } = process.env
 
 const checkAutorization = restService => {
